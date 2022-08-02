@@ -49,6 +49,7 @@ input {
   overflow-x: scroll;
 }
 #todo {
+  margin-top: 5%;
   padding: 0 10px 0 10px;
 }
 #todo li {
@@ -85,4 +86,9 @@ input {
   color: #ffffff;
   width: 6%;
   height: 5vh;
+}
+
+.btn-creditos{
+  margin-left: 85%;
+  margin-top: 2%;
 }
