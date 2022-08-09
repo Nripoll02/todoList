@@ -13,7 +13,6 @@ body {
   margin: auto;
   color: #181818;
   min-height: 90vh;
-  margin-top: 2%;
 }
 .todo {
   width: 100%;
@@ -92,3 +91,18 @@ input {
   margin-left: 85%;
   margin-top: 2%;
 }
+
+.titulo{
+  font-size: large;
+  font-style: italic;
+  color: #181818;
+
+}
+.info{
+  margin-top: 2%;
+  margin-left: 1%;
+  width: 20%;
+  height: 100%;
+}
+
+

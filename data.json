@@ -1,0 +1,16 @@
+[
+    {"actividad": "Correr",  "id":1},
+    {"actividad": "Comer", "id":2},
+    {"actividad": "Dormir", "id":3},
+    {"actividad": "Salir con amigos", "id":4},
+    {"actividad": "Estudiar", "id":5},
+    {"actividad": "Jugar", "id":6},
+    {"actividad": "Trabajar", "id":7},
+    {"actividad": "Caminar", "id":8},
+    {"actividad": "Practicar lo estudiado", "id":9},
+    {"actividad": "Escuchar musica", "id":10},
+    {"actividad": "Cocinar", "id":11},
+    {"actividad": "Limpiar", "id":12}
+   
+
+]

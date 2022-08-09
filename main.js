@@ -85,3 +85,24 @@ function sweetAlert(){//Funcion para mostrar un alert con sweetalert
     }
   })
 }
+
+function toasty(){
+  toastr.success('Creador: Nahuel Ripoll', 'Toasty')
+}
+
+
+fetch('./data.json')
+  .then((resinicial) => resinicial.json())
+  .then((res) => {
+    const miArray = res;
+
+    let html = '';
+    for(let i = 0; i < miArray.length; i++){
+      html += `<li>${miArray[i].actividad}</li>`;
+    }
+    document.getElementById('actividad').innerHTML = html;
+    console.log(html);
+  })
+  .catch((e) => {
+    console.log(e);
+  });
