@@ -86,10 +86,6 @@ function sweetAlert(){//Funcion para mostrar un alert con sweetalert
   })
 }
 
-function toasty(){
-  toastr.success('Creador: Nahuel Ripoll', 'Toasty')
-}
-
 
 fetch('./data.json')
   .then((resinicial) => resinicial.json())
